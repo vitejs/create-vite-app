@@ -17,12 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vuejs/vite.git"
+    "url": "git+https://github.com/vitejs/create-vite-app.git"
   },
   "bugs": {
-    "url": "https://github.com/vuejs/vite/issues"
+    "url": "https://github.com/vitejs/create-vite-app/issues"
   },
-  "homepage": "https://github.com/vuejs/vite/tree/master/#readme",
+  "homepage": "https://github.com/vitejs/create-vite-app/tree/master/#readme",
   "dependencies": {
     "fs-extra": "^9.0.0",
     "minimist": "^1.2.5"

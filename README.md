@@ -1,5 +1,7 @@
 # create-vite-app
 
+Create an app powered by [Vite](https://github.com/vuejs/vite).
+
 ```bash
 $ npx create-vite-app <project-name>
 $ cd <project-name>

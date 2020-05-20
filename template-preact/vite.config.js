@@ -1,6 +1,6 @@
-const preactRefrech = require('@prefresh/vite');
+const preactRefresh = require('@prefresh/vite');
 
 module.exports = {
   jsx: 'preact',
-  plugins: [preactRefrech()]
+  plugins: [preactRefresh()]
 }

@@ -15,7 +15,7 @@
   "devDependencies": {
     "bs-platform": "^7.3.2",
     "reason-react": "^0.8.0",
-    "vite": "^0.16.2",
+    "vite": "^0.16.6",
     "vite-plugin-react": "^1.1.0"
   }
 }

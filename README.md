@@ -20,7 +20,7 @@ $ yarn dev
 
 ## Templates
 
-Defaults to the Vue template, the other templates available are `react` and `preact`. To scaffold with alternative template:
+Defaults to the Vue template, the other templates available are `react`, `preact` and `reason-react`. To scaffold with alternative template:
 
 ```bash
 $ npx create-vite-app --template react my-react-project

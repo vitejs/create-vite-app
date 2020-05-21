@@ -1,0 +1,21 @@
+{
+  "name": "vite-reason-react-starter",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite serve src",
+    "build": "vite build src --outDir dist ",
+    "re:build": "bsb -make-world -clean-world",
+    "re:watch": "bsb -make-world -clean-world -w",
+    "re:clean": "bsb -clean-world"
+  },
+  "dependencies": {
+    "@pika/react": "^16.13.1",
+    "@pika/react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "bs-platform": "^7.3.2",
+    "reason-react": "^0.8.0",
+    "vite": "^0.16.2",
+    "vite-plugin-react": "^1.1.0"
+  }
+}

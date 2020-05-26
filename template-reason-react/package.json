@@ -2,8 +2,8 @@
   "name": "vite-reason-react-starter",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite serve src",
-    "build": "vite build src --outDir dist ",
+    "dev": "vite",
+    "build": "vite build",
     "re:build": "bsb -make-world -clean-world",
     "re:watch": "bsb -make-world -clean-world -w",
     "re:clean": "bsb -clean-world"
@@ -15,7 +15,7 @@
   "devDependencies": {
     "bs-platform": "^7.3.2",
     "reason-react": "^0.8.0",
-    "vite": "^0.16.6",
-    "vite-plugin-react": "^1.1.0"
+    "vite": "^0.17.0",
+    "vite-plugin-react": "^2.0.0"
   }
 }

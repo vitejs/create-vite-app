@@ -8,6 +8,9 @@
     "create-vite-app": "index.js",
     "cva": "index.js"
   },
+  "scripts": {
+    "update": "node ./updateVersions.js"
+  },
   "files": [
     "index.js",
     "template-*"
@@ -22,6 +25,7 @@
   "homepage": "https://github.com/vitejs/create-vite-app/tree/master/#readme",
   "dependencies": {
     "fs-extra": "^9.0.0",
+    "got": "^11.1.4",
     "minimist": "^1.2.5"
   }
 }

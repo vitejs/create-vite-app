@@ -31,7 +31,7 @@ async function init() {
     await write(file)
   }
 
-  const pkg = require(path.join(templateDir, `package.json`))
+  const pkg = fs.readJSONSync(path.join(templateDir, `package.json`))
   pkg.name = path.basename(root)
   await write('package.json', JSON.stringify(pkg, null, 2))
 

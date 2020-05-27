@@ -1,5 +1,6 @@
-const fs = require('fs-extra')
 const path = require('path')
+const fs = require('fs-extra')
+const got = require('got')
 
 ;(async () => {
   const templates = (await fs.readdir(__dirname)).filter((d) =>
@@ -8,11 +9,29 @@ const path = require('path')
   for (const t of templates) {
     const pkgPath = path.join(__dirname, t, `package.json`)
     const pkg = require(pkgPath)
-    pkg.devDependencies.vite = `^` + require('../vite/package.json').version
+    const vite = await getVersion('vite')
+    const vue = await getVersion('vue')
+    pkg.devDependencies.vite = `^${vite.latest}`
     if (t === 'template-vue') {
-      pkg.dependencies.vue = `^` + require('../vue-next/package.json').version
+      pkg.dependencies.vue = `^${vue.next}`
       pkg.devDependencies['@vue/compiler-sfc'] = pkg.dependencies.vue
     }
     await fs.writeFile(pkgPath, JSON.stringify(pkg, null, 2))
   }
 })()
+
+const getVersion = async (package) => {
+  try {
+    const { body = {} } = await got(
+      `https://registry.npmjs.org/-/package/${package}/dist-tags`,
+      {
+        responseType: 'json'
+      }
+    )
+
+    return body
+  } catch (error) {
+    console.log(error.response.body)
+    process.exit(-1)
+  }
+}

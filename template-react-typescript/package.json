@@ -1,0 +1,19 @@
+{
+  "name": "vite-react-typescript-starter",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@pika/react": "^16.13.1",
+    "@pika/react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "typescript": "^3.9.3",
+    "vite": "^0.17.0",
+    "vite-plugin-react": "^2.0.0"
+  }
+}

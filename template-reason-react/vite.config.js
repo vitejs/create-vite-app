@@ -1,4 +1,12 @@
-module.exports = {
+// @ts-check
+const reactPlugin = require('vite-plugin-react')
+
+/**
+ * @type { import('vite').UserConfig }
+ */
+const config = {
   jsx: 'react',
-  plugins: [require('vite-plugin-react')],
-};
+  plugins: [reactPlugin]
+}
+
+module.exports = config

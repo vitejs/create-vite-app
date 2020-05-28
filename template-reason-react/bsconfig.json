@@ -1,21 +1,34 @@
 {
-  "name": "vite-reason-react-starter",
-  "reason": {
-    "react-jsx": 3
-  },
-  "sources": {
-    "dir": "src",
-    "subdirs": true
-  },
-  "bsc-flags": ["-bs-super-errors", "-bs-no-version-header"],
-  "package-specs": [
-    {
-      "module": "es6",
-      "in-source": true
-    }
-  ],
-  "suffix": ".bs.js",
-  "namespace": true,
-  "bs-dependencies": ["reason-react"],
-  "refmt": 3
+    "name": "vite-reason-react-starter",
+    "reason": {
+        "react-jsx": 3
+    },
+    "sources": {
+        "dir": "src",
+        "subdirs": true
+    },
+    "bsc-flags": [
+        "-bs-super-errors",
+        "-bs-no-version-header"
+    ],
+    "package-specs": [
+        {
+            "module": "es6",
+            "in-source": true
+        }
+    ],
+    "suffix": ".bs.js",
+    "namespace": true,
+    "bs-dependencies": [
+        "reason-react"
+    ],
+    "refmt": 3
+    // You can uncomment the next warnings sections to get a stricter compilation.
+    // e.g: fail compilation on non exhaustive pattern matches and other goodies.
+    // For more information please refer to this blog post:
+    // https://dev.to/yawaramin/ocaml-reasonml-best-practice-warnings-and-errors-4mkm
+    //   "warnings": {
+    //     "number": "+A-48",
+    //     "error": "+A-3-44-102"
+    //   }
 }

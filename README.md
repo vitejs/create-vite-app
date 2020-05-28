@@ -3,7 +3,7 @@
 Create an app powered by [Vite](https://github.com/vuejs/vite).
 
 ```bash
-$ npx create-vite-app <project-name>
+$ npm init vite-app <project-name>
 $ cd <project-name>
 $ npm install
 $ npm run dev
@@ -20,8 +20,16 @@ $ yarn dev
 
 ## Templates
 
-Defaults to the Vue template, the other templates available are `react`, `preact` and `reason-react`. To scaffold with alternative template:
+Available templates:
+
+- `vue` (default)
+- `react`
+- `react-ts`
+- `preact`
+- `reason-react`
+
+To scaffold with specific template:
 
 ```bash
-$ npx create-vite-app --template react my-react-project
+$ npm init vite-app my-react-project --template react
 ```

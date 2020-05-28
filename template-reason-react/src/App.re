@@ -11,7 +11,7 @@ let make = () => {
       <img src=logo className="App-logo" alt="logo" />
       <p> {React.string("Hello Vite + Reason React")} </p>
       <p>
-        <button onClick={_ => setCount(_ => count + 1)}>
+        <button onClick={_ => setCount(count => count + 1)}>
           {React.string("count is: " ++ string_of_int(count))}
         </button>
       </p>

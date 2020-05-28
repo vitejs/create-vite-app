@@ -1,6 +1,12 @@
-const preactRefresh = require('@prefresh/vite');
+// @ts-check
+const preactRefresh = require('@prefresh/vite')
 
-module.exports = {
+/**
+ * @type { import('vite').UserConfig }
+ */
+const config = {
   jsx: 'preact',
   plugins: [preactRefresh()]
 }
+
+module.exports = config

@@ -16,7 +16,10 @@ async function init() {
     process.exit(1)
   }
 
-  const templateDir = path.join(__dirname, `template-${argv.template || 'vue'}`)
+  const templateDir = path.join(
+    __dirname,
+    `template-${argv.t || argv.template || 'vue'}`
+  )
   const write = async (file, content) => {
     const targetPath = path.join(root, file)
     if (content) {

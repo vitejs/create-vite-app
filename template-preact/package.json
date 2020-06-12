@@ -9,7 +9,7 @@
     "preact": "^10.4.1"
   },
   "devDependencies": {
-    "@prefresh/vite": "^0.7.0",
+    "@prefresh/vite": "^0.9.1",
     "vite": "^0.20.0"
   }
 }

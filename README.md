@@ -1,6 +1,6 @@
 # create-vite-app
 
-Create an app powered by [Vite](https://github.com/vuejs/vite).
+Create an app powered by [Vite](https://github.com/vitejs/vite).
 
 ```bash
 $ npm init vite-app <project-name>

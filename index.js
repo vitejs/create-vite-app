@@ -7,6 +7,9 @@ async function init() {
   const targetDir = argv._[0] || '.'
   const cwd = process.cwd()
   const root = path.join(cwd, targetDir)
+  const renameFiles = {
+    _gitignore: '.gitignore',
+  }
   console.log(`Scaffolding project in ${root}...`)
 
   await fs.ensureDir(root)
@@ -21,7 +24,9 @@ async function init() {
     `template-${argv.t || argv.template || 'vue'}`
   )
   const write = async (file, content) => {
-    const targetPath = path.join(root, file)
+    const targetPath = renameFiles[file]
+      ? path.join(root, renameFiles[file])
+      : path.join(root, file)
     if (content) {
       await fs.writeFile(targetPath, content)
     } else {

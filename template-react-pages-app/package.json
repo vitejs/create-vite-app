@@ -1,0 +1,30 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite serve",
+    "build": "rm -rf dist && vite build --outDir dist && serve -s dist",
+    "ssr": "rm -rf dist && vite-pages ssr && serve dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pika/react": "^16.13.1",
+    "@pika/react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.43",
+    "@types/react-router-dom": "^5.1.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "serve": "^11.3.2",
+    "vite": "^1.0.0-rc.1",
+    "vite-pages-theme-basic": "^0.7.2",
+    "vite-plugin-mdx": "^0.3.6",
+    "vite-plugin-react": "^3.0.2",
+    "vite-plugin-react-pages": "^0.7.0"
+  }
+}

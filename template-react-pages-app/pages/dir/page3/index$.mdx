@@ -1,0 +1,35 @@
+---
+title: page3 title
+sort: 3
+---
+
+import Box from './box'
+
+# Markdown: Syntax
+
+This is page3. This is a complicated [mdx](https://mdxjs.com/) page.
+
+## Use React Component
+
+<Box />
+
+## Test code block with syntax highlighing
+
+```tsx
+export function createTheme({ sideMenuData }: IOption = {}): ICreateTheme {
+  return (pages) => {
+    // theme can create menu from pages data
+    const actualMenuData = sideMenuData || defaultMenu(pages)
+    return {
+      loaded(pageData) {
+        const Component = pageData.default
+        return (
+          <Layout sideMenuData={actualMenuData}>
+            <Component />
+          </Layout>
+        )
+      }
+    }
+  }
+}
+```

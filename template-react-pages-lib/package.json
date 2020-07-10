@@ -1,0 +1,29 @@
+{
+  "name": "my-lib",
+  "description": "suppose this npm package name is 'my-lib'",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite serve -c ./vite.config.ts",
+    "build-docs": "rm -rf docs-dist && vite build -c ./vite.config.ts && serve -s dist",
+    "build-docs-ssr": "rm -rf docs-dist && vite-pages ssr -c ./vite.config.ts && serve dist"
+  },
+  "dependencies": {
+    "@pika/react": "^16.13.1",
+    "@pika/react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.7",
+    "@types/react": "^16.9.43",
+    "react": "^16.13.1",
+    "serve": "^11.3.2",
+    "vite": "^1.0.0-rc.1",
+    "vite-pages-theme-basic": "^0.7.2",
+    "vite-plugin-mdx": "^0.3.6",
+    "vite-plugin-react": "^3.0.2",
+    "vite-plugin-react-pages": "^0.7.0"
+  },
+  "demoDependencies": {
+    "my-lib": "~0.0.1"
+  }
+}

@@ -4,6 +4,9 @@
   "license": "MIT",
   "author": "Evan You",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": {
     "create-vite-app": "index.js",
     "cva": "index.js"

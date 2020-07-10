@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "baseUrl": ".",
+    "jsx": "react",
+    "moduleResolution": "Node",
+    "esModuleInterop": true
+  }
+}

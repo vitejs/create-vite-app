@@ -1,0 +1,18 @@
+{
+  "name": "vite-svelte-typescript-starter",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "svelte": "^3.24.1"
+  },
+  "devDependencies": {
+    "@tsconfig/svelte": "^1.0.10",
+    "svelte-preprocess": "^4.1.1",
+    "typescript": "^4.0.2",
+    "vite": "^1.0.0-rc.4",
+    "vite-plugin-svelte": "^2.4.0"
+  }
+}

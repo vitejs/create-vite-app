@@ -23,6 +23,7 @@ $ yarn dev
 Available templates:
 
 - `vue` (default)
+- `vue-ts`
 - `react`
 - `react-ts`
 - `preact`

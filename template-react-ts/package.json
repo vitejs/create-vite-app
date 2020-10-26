@@ -13,7 +13,7 @@
     "@types/react": "^16.9.35",
     "@types/react-dom": "^16.9.8",
     "typescript": "^3.9.3",
-    "vite": "^1.0.0-rc.1",
+    "vite": "^1.0.0-rc.8",
     "vite-plugin-react": "^3.0.0"
   }
 }

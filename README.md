@@ -23,10 +23,11 @@ $ yarn dev
 Available templates:
 
 - `vue` (default)
-- `vue-ts`
+- `vue-ts` (experimental)
 - `react`
 - `react-ts`
 - `preact`
+- `preact-ts`
 - `reason-react`
 
 To scaffold with specific template:
@@ -34,3 +35,5 @@ To scaffold with specific template:
 ```bash
 $ npm init vite-app my-react-project --template react
 ```
+
+For use with Svelte, check out [Svite](https://github.com/dominikg/svite) which is built on top of Vite.

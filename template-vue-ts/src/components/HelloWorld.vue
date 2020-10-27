@@ -14,7 +14,7 @@
     Make sure to use workspace version of TypeScript to get improved support via
     <a href="https://github.com/znck/vue-developer-experience" target="_blank"
       >@vuedx</a
-    >.
+    >. Note @vuedx is still experimental and this setup is provided for early feedback.
   </p>
   <button @click="count++">count is: {{ count }}</button>
   <p>

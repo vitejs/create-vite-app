@@ -6,4 +6,5 @@ lib/bs
 node_modules
 bundleOutput
 dist
+dist-ssr
 *.local

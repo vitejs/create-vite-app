@@ -9,6 +9,12 @@
       target="_blank"
       >Vetur</a
     >
+    +
+    <a
+      href="https://marketplace.visualstudio.com/items?itemName=znck.vue-language-features-insiders"
+      target="_blank"
+      >Vue Language Features (Insiders)</a
+    >
   </p>
   <p>
     Make sure to use workspace version of TypeScript to get improved support via

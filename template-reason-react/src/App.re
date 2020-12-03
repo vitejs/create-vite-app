@@ -9,7 +9,7 @@ let make = () => {
   <div className="App">
     <header className="App-header">
       <img src=logo className="App-logo" alt="logo" />
-      <p> {React.string("Hello Vite + Reason React")} </p>
+      <p> {React.string("Hello Vite + Reason React?fesfesf")} </p>
       <p>
         <button onClick={_ => setCount(count => count + 1)}>
           {React.string("count is: " ++ string_of_int(count))}

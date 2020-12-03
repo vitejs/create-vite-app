@@ -6,10 +6,10 @@
     "build": "vuedx-typecheck . && vite build"
   },
   "dependencies": {
-    "vue": "^3.0.3"
+    "vue": "^3.0.4"
   },
   "devDependencies": {
-    "@vue/compiler-sfc": "^3.0.3",
+    "@vue/compiler-sfc": "^3.0.4",
     "@vuedx/typecheck": "^0.3.1-insiders-1606311019.0",
     "@vuedx/typescript-plugin-vue": "^0.3.1-insiders-1606311019.0",
     "typescript": "^4.1.2",

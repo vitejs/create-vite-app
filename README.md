@@ -33,7 +33,12 @@ Available templates:
 To scaffold with specific template:
 
 ```bash
-$ npm init vite-app my-react-project --template react
+$ npm init vite-app my-react-project -- --template react
+```
+
+If using Yarn:
+``` bash
+$ yarn create vite-app my-react-project --template react
 ```
 
 For use with Svelte, check out [Svite](https://github.com/dominikg/svite) which is built on top of Vite.

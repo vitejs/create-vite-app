@@ -42,3 +42,11 @@ $ yarn create vite-app my-react-project --template react
 ```
 
 For use with Svelte, check out [Svite](https://github.com/dominikg/svite) which is built on top of Vite.
+
+## Project Scope
+
+This tool is solely providing an easy way to scaffold an official template, and that is its defined scope. It has no intention of becoming another `vue-cli` so it intentionally does not handle:
+
+- Installing dependencies
+- Initializing git
+- Using custom templates (just use [degit](https://github.com/Rich-Harris/degit) to fetch your own repo)

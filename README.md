@@ -33,7 +33,7 @@ Available templates:
 To scaffold with specific template:
 
 ```bash
-$ npm init vite-app my-react-project -- --template react
+$ npm init vite-app my-react-project --template react
 ```
 
 If using Yarn:

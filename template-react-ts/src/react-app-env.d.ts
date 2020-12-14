@@ -3,7 +3,7 @@
 /// <reference types="react-dom" />
 
 declare namespace NodeJS {
-  interface Process{
+  interface Process {
     env: ProcessEnv
   }
   interface ProcessEnv {
@@ -43,8 +43,8 @@ declare module '*.png' {
 }
 
 declare module '*.webp' {
-    const src: string
-    export default src
+  const src: string
+  export default src
 }
 
 declare module '*.svg' {
@@ -54,7 +54,7 @@ declare module '*.svg' {
     SVGSVGElement
   > & { title?: string }>
 
-  const src: string;
+  const src: string
   export default src
 }
 

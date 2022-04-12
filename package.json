@@ -22,6 +22,6 @@
   "homepage": "https://github.com/vitejs/create-vite-app/tree/master/#readme",
   "dependencies": {
     "fs-extra": "^9.0.0",
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.6"
   }
 }
